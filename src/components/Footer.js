@@ -1,6 +1,7 @@
 import React from 'react'
 import './FooterStyle.css'
-import { FaFacebook, FaGithub, FaHome, FaInstagram, FaLinkedin, FaMailBulk, FaPhone, FaWhatsapp } from 'react-icons/fa'
+import { FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaWhatsapp } from 'react-icons/fa'
+import { SiLeetcode,SiCodingninjas } from "react-icons/si";
 import { Link } from 'react-router-dom'
 
 const Footer = () => {
@@ -37,11 +38,11 @@ const Footer = () => {
             <Link to="https://api.whatsapp.com/send/?phone=918791719046&text&type=phone_number&app_absent=0" target="_blank">
               <FaWhatsapp size={30} className='social-btn'/>
             </Link>
-            <Link to="https://www.facebook.com/vishal.chakarvadi" target="_blank">
-              <FaFacebook size={30} className='social-btn'/>
+            <Link to="https://leetcode.com/sg_goyal225/" target="_blank">
+              <SiLeetcode size={30} className='social-btn'/>
             </Link>
-            <Link to="https://www.instagram.com/sg_goyal225/#" target="_blank">
-              <FaInstagram size={30} className='social-btn'/>
+            <Link to="https://www.codingninjas.com/studio/profile/sg_goyal225" target="_blank">
+              <SiCodingninjas size={30} className='social-btn'/>
             </Link>
             <Link to="https://github.com/settings/profile" target="_blank">
               <FaGithub size={30} className='social-btn'/>

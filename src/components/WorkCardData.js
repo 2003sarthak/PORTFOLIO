@@ -7,6 +7,7 @@ import pro6 from "../assets/project6.png";
 import pro7 from "../assets/project7.png";
 import pro8 from "../assets/project8.png";
 import pro9 from "../assets/project9.png";
+import pro10 from "../assets/project10.png";
 const ProjectCardData=[
     {
         imgSrc:pro1,
@@ -19,6 +20,12 @@ const ProjectCardData=[
         title:"Word-Counter",
         text:"Word Counter is a site where you can write, delete, count number of words or characters written.",
         view:"https://word-counter-tau-fawn.vercel.app/",
+    },
+    {
+        imgSrc:pro10,
+        title:"Nike-shop-now",
+        text:"Nike-shop-now is a responsive site for shopping new shoes.",
+        view:"https://nike-shop-now.vercel.app/",
     },
     {
         imgSrc:pro3,

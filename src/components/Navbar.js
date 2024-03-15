@@ -18,16 +18,16 @@ const Navbar = () => {
         </Link>
         <ul className={click?"nav-menu active":"nav-menu"}>
             <li>
-                <Link className='navbar-hover' to="/">Home</Link>
+                <NavLink className={({isActive})=>`${isActive? "lightgrey":"navbar-hover"} `} to="/">Home</NavLink>
             </li>
             <li>
-                <Link className='navbar-hover'  to="/project">Project</Link>
+                <NavLink className={({isActive})=>`${isActive? "lightgrey":"navbar-hover"} `}  to="/project">Project</NavLink>
             </li>
             <li>
-                <Link className='navbar-hover'  to="/about">About</Link>
+                <NavLink className={({isActive})=>`${isActive? "lightgrey":"navbar-hover"} `}  to="/about">About</NavLink>
             </li>
             <li>
-                <Link className='navbar-hover'  to="/contact">Contact</Link>
+                <NavLink className={({isActive})=>`${isActive? "lightgrey":"navbar-hover"} `}  to="/contact">Contact</NavLink>
             </li>
         </ul>
         <div className='hamburger' onClick={handleClick}>

@@ -22,6 +22,9 @@
     font-size: 1.2rem;
     font-weight: 500; 
 }
+.lightgrey{
+    color: #FFF59D;
+}
 .navbar-hover:hover{
     color: lightgray;
 }

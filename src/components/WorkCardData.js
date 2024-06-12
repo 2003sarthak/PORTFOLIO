@@ -8,7 +8,14 @@ import pro7 from "../assets/project7.png";
 import pro8 from "../assets/project8.png";
 import pro9 from "../assets/project9.png";
 import pro10 from "../assets/project10.png";
+import pro11 from "../assets/project11.png";
 const ProjectCardData=[
+    {
+        imgSrc:pro11,
+        title:"Swiggi-Clone",
+        text:"Swiggi Clone is a site that contain the main swiggi website home page with a same UI.",
+        view:"https://swiggi-ui-clone.vercel.app/",
+    },
     {
         imgSrc:pro1,
         title:"Todo",

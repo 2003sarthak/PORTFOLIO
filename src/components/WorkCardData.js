@@ -9,7 +9,14 @@ import pro8 from "../assets/project8.png";
 import pro9 from "../assets/project9.png";
 import pro10 from "../assets/project10.png";
 import pro11 from "../assets/project11.png";
+import pro12 from "../assets/project12.png";
 const ProjectCardData=[
+    {
+        imgSrc:pro12,
+        title:"SG ChatNow",
+        text:"This is a chat application with backend using firebase in which u can talk like whatsapp",
+        view:"https://sg-chatnow.vercel.app/",
+    },
     {
         imgSrc:pro11,
         title:"Swiggi-Clone",

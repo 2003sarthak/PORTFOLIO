@@ -10,7 +10,14 @@ import pro9 from "../assets/project9.png";
 import pro10 from "../assets/project10.png";
 import pro11 from "../assets/project11.png";
 import pro12 from "../assets/project12.png";
+import pro13 from "../assets/project13.png";
 const ProjectCardData=[
+    {
+        imgSrc:pro13,
+        title:"Hotel-Book-Now",
+        text:"Developed a hotel booking application using MERN Stack booking hotel online",
+        view:"https://hotel-book-now.vercel.app/",
+    },
     {
         imgSrc:pro12,
         title:"SG ChatNow",
